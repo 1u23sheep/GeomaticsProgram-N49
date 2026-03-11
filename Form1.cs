@@ -27,7 +27,7 @@ namespace N49
             {
                 StreamReader sr = new StreamReader(ofd.FileName);
                 Data.Read(sr);
-                Algo.AddPoint(0);
+                Algo.AddPoint(false);
             }
         }
     }
